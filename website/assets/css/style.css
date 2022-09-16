@@ -1,3 +1,13 @@
 body{
     background: #BDBDBD;
 }
+
+.text {
+    font-size: small;
+    padding-right: 20%;
+}
+
+.form {
+    width: 50%;
+    white-space: nowrap;
+}
