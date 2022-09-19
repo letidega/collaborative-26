@@ -1,7 +1,40 @@
 body{
     background: #BDBDBD;
 }
+
 .imagen1 {
     border-radius: 100%;
 
   }
+.h1 {
+    font-size: 50px;
+}
+
+.h1 {
+    font-size: calc(1.525rem + 3.3vw);
+  }
+  
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 6rem;
+    }
+  }
+
+.h6 {
+    font-size: calc(1rem + 1.5vw);
+  }
+  
+  @media (min-width: 1320px) {
+.h6 {
+      font-size: 3rem;
+    }
+  }
+.text {
+    font-size: small;
+    padding-right: 20%;
+}
+
+.form {
+    width: 50%;
+    white-space: nowrap;
+}
