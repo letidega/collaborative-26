@@ -1,12 +1,11 @@
 body{
     background: #BDBDBD;
 }
-
-h1 {
+.h1 {
     font-size: 50px;
 }
 
-h1 {
+.h1 {
     font-size: calc(1.525rem + 3.3vw);
   }
   
@@ -16,12 +15,21 @@ h1 {
     }
   }
 
-h6 {
+.h6 {
     font-size: calc(1rem + 1.5vw);
   }
   
   @media (min-width: 1320px) {
-h6 {
+.h6 {
       font-size: 3rem;
     }
   }
+.text {
+    font-size: small;
+    padding-right: 20%;
+}
+
+.form {
+    width: 50%;
+    white-space: nowrap;
+}
