@@ -4,9 +4,10 @@ body{
 
 .imagen1 {
     border-radius: 100%;
+    width: 300px;
 
   }
-.h1 {
+.heading {
     font-size: 50px;
 }
 
